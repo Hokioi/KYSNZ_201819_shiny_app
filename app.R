@@ -140,7 +140,9 @@ ui <- fluidPage(theme = shinytheme("lumen"),
                       all of those presumed substances."),
                     h3("Further information"),
                     p("For more results from KnowYourStuffNZ's 2018-19 pill testing, visit ", 
-                      a("https://knowyourstuff.nz/2018-19-results", href = "https://knowyourstuff.nz/2018-19-results/"))
+                      a("https://knowyourstuff.nz/2018-19-results", href = "https://knowyourstuff.nz/2018-19-results/"),
+                    p("These pages have been made using R. The code can be found at ", 
+                        a("https://github.com/Hokioi/KYSNZ_201819_shiny_app", href = "https://github.com/Hokioi/KYSNZ_201819_shiny_app")))
                 )
             )
         )
